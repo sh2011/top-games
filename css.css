@@ -1,0 +1,117 @@
+.card{
+    display: inline-block;
+    width: 18%;
+    background-color:white;
+    height: 470px;
+    border: 10px double darkgreen ;
+    border-radius: 5px;
+    margin: 3px;
+}
+img{
+    width:100%;
+}
+body{
+   background-color:#aef0c4;
+   text-align: center;
+}
+h1{
+    font-size:100px;
+}
+.text{
+  background-color: #b2f1c6;
+  text-decoration: none;
+  color:#524f4e ;
+  border-radius: 60px;
+  display: inline-block;
+  width: 40%;
+}
+.link{
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 45px;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #822b09;
+    display: inline-block;
+    box-shadow: 10px 10px 20px 1px;
+    
+}
+h2{
+    margin-top: 100px;
+    color: #523583;
+    
+}
+caption{
+    font-size:45px;
+    color: #523583;
+    text-shadow: 2px 2px 5px grey;
+    margin-bottom: 20px;
+}
+table{
+    margin: 50px auto ;
+    width: 80%;
+    border-collapse: collapse;
+}
+tr{
+    background-color: white;
+}
+td{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 3px dashed grey;
+    border-left: 3px dashed grey;
+    border-right: 3px dashed grey;
+}
+th{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    height: 160px;
+    font-size: 22px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-shadow: 1px 1px 2px black;
+}
+.b{
+    background-color: #ff1083;
+    color: white;
+}
+.p{
+    background-color: #0083f5;
+    color: white;
+}
+.g{
+    background-color: #6400de;
+    color: white;
+}
+.pl{
+    background-color: #fca104;
+    color: white;
+}
+.price{
+    box-shadow: 1px 3px 8px grey;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: inline;
+}
+.ta-da{
+    padding: 0 ;
+    height: 90px;
+}
+.price-buton{
+    border: 3px solid black;
+    border-radius: 45px;
+    padding: 20px 5px;
+    width: 250px;
+    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 1px 3px 2px gray ;
+    text-shadow:1px 1px 2px black ;
+}

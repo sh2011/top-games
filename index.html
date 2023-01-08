@@ -1,0 +1,415 @@
+<!--
++ Вспомнить команды из прошлого урока;
+´+ Познакомиться с тегом <table>;
++Познакомиться с тегом <caption>;
++ Познакомиться с тегами , <thead>, <tbody>, <th>, <tr> и <td>.
+- Познакомиться и применить CSS-свойство border-collapse;
+- Получить домашнее задание.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>топ игры</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1>топ игры</h1>
+
+    <div class="button">
+        <a class="link" href="#best-games"> <b>Лучшие игры</b> </a>
+        <a class="link" href="#mmo"> <b>ММО</b> </a>
+        <a class="link" href="#Action"> <b>Экшен</b> </a>
+        <a class="link" href="#shooters"> <b>Шутеры</b> </a>
+        <a class="link" href="#indi"> <b>Инди</b> </a>
+        <a class="link" href="#moba"> <b>Моба</b> </a>       
+    </div>
+
+    <h2 id="best-games"> <i>Лучшие игры</i> </h2>
+
+    <div class="card">
+        <img src="1.jpg">
+        <h3>Brawl Stars</h3>
+        <p> <i> Supercell</i></p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=brawl+stars&c=apps&hl=ru">скачать</a>    
+    </div>
+
+    <div class="card">
+        <img src="2.jpg">
+        <h3>Standoff 2</h3>
+        <p> <i>Axlebolt</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=standoff+2&c=apps&hl=ru">скачать</a>
+    </div>
+    
+    <div class="card">
+        <img src="3.png">
+        <h3>Minecraft</h3>
+        <p> <i>Mojang AB</i> </p>
+        <p> <b>7,49</b>€</p>
+        <a class="text" href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=ru">купить</a>
+    </div>
+    
+    <div class="card">
+        <img src="4.jpg">
+        <h3>Roblox</h3>
+        <p> <i>Roblox Corporation</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=roblox&c=apps&hl=ru">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="9.jfif">
+        <h3>Subway Surfers</h3>
+        <p> <i>Kiloo</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=ru">скачать</a>
+    </div>
+   
+    <div class="card">
+        <img src="5.png">
+        <h3>Among Us</h3>
+        <p> <i>Innersloth</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=among+us&c=apps&hl=ru">скачать</a>
+    </div>
+   
+    <div class="card">
+        <img src="6.jfif">
+        <h3>Geometry Dash</h3>
+        <p> <i>RobTop Games</i> </p>
+        <p> <b>1.99</b>€</p>
+        <a class="text" href="https://play.google.com/store/apps/details?id=com.robtopx.geometryjump&hl=ru">купить</a>
+    </div>
+
+    <div class="card">
+        <img src="7.jfif">
+        <h3>War Thunder</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://warthunder.com/en/?gclid=CjwKCAjw2rmWBhB4EiwAiJ0mtYQOLkDOW18zg8FIESQsmoH6cmmkdUefiJgT3x9SrO5tr-4q6jXGUBoC870QAvD_BwE">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="8.jfif">
+        <h3>Crossout</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://crossout.net/ru/">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="10.jfif">
+        <h3>Tiles Hop:EDM Rush!</h3>
+        <p> <i>Amanotes Pte. Ltd.</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/apps/details?id=com.amanotes.beathopper&hl=ru">скачать</a>
+    </div>
+    
+    <h2 id="mmo"> <i>MMO</i> </h2>
+    <div class="card">
+        <img src="1.jpg">
+        <h3>Brawl Stars</h3>
+        <p> <i> Supercell</i></p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=brawl+stars&c=apps&hl=ru">скачать</a>    
+    </div>
+
+    <div class="card">
+        <img src="2.jpg">
+        <h3>Standoff 2</h3>
+        <p> <i>Axlebolt</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=standoff+2&c=apps&hl=ru">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="4.jpg">
+        <h3>Roblox</h3>
+        <p> <i>Roblox Corporation</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=roblox&c=apps&hl=ru">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="5.png">
+        <h3>Among Us</h3>
+        <p> <i>Innersloth</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=among+us&c=apps&hl=ru">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="7.jfif">
+        <h3>War Thunder</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://warthunder.com/en/?gclid=CjwKCAjw2rmWBhB4EiwAiJ0mtYQOLkDOW18zg8FIESQsmoH6cmmkdUefiJgT3x9SrO5tr-4q6jXGUBoC870QAvD_BwE">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="8.jfif">
+        <h3>Crossout</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://crossout.net/ru/">скачать</a>
+    </div>
+
+    <h2 id="Action" > <i>Экшен</i> </h2>
+
+    <div class="card">
+        <img src="9.jfif">
+        <h3>Subway Surfers</h3>
+        <p> <i>Kiloo</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=ru">скачать</a>
+    </div>
+   
+    <div class="card">
+        <img src="5.png">
+        <h3>Among Us</h3>
+        <p> <i>Innersloth</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=among+us&c=apps&hl=ru">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="7.jfif">
+        <h3>War Thunder</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://warthunder.com/en/?gclid=CjwKCAjw2rmWBhB4EiwAiJ0mtYQOLkDOW18zg8FIESQsmoH6cmmkdUefiJgT3x9SrO5tr-4q6jXGUBoC870QAvD_BwE">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="8.jfif">
+        <h3>Crossout</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://crossout.net/ru/">скачать</a>
+    </div>
+
+    <h2 id="shooters"> <i>Шутеры</i> </h2>
+
+    <div class="card">
+        <img src="1.jpg">
+        <h3>Brawl Stars</h3>
+        <p> <i> Supercell</i></p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=brawl+stars&c=apps&hl=ru">скачать</a>    
+    </div>
+
+    <div class="card">
+        <img src="2.jpg">
+        <h3>Standoff 2</h3>
+        <p> <i>Axlebolt</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=standoff+2&c=apps&hl=ru">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="7.jfif">
+        <h3>War Thunder</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://warthunder.com/en/?gclid=CjwKCAjw2rmWBhB4EiwAiJ0mtYQOLkDOW18zg8FIESQsmoH6cmmkdUefiJgT3x9SrO5tr-4q6jXGUBoC870QAvD_BwE">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="8.jfif">
+        <h3>Crossout</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://crossout.net/ru/">скачать</a>
+    </div>
+
+    <h2 id="indi"> <i>Инди</i> </h2>
+
+    <div class="card">
+        <img src="3.png">
+        <h3>Minecraft</h3>
+        <p> <i>Mojang AB</i> </p>
+        <p> <b>7,49</b>€</p>
+        <a class="text" href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=ru">купить</a>
+    </div>
+
+    <div class="card">
+        <img src="9.jfif">
+        <h3>Subway Surfers</h3>
+        <p> <i>Kiloo</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&hl=ru">скачать</a>
+    </div>
+   
+    <div class="card">
+        <img src="5.png">
+        <h3>Among Us</h3>
+        <p> <i>Innersloth</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=among+us&c=apps&hl=ru">скачать</a>
+    </div>
+   
+    <div class="card">
+        <img src="6.jfif">
+        <h3>Geometry Dash</h3>
+        <p> <i>RobTop Games</i> </p>
+        <p> <b>1.99</b>€</p>
+        <a class="text" href="https://play.google.com/store/apps/details?id=com.robtopx.geometryjump&hl=ru">купить</a>
+    </div>
+
+    <div class="card">
+        <img src="10.jfif">
+        <h3>Tiles Hop:EDM Rush!</h3>
+        <p> <i>Amanotes Pte. Ltd.</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/apps/details?id=com.amanotes.beathopper&hl=ru">скачать</a>
+    </div>
+
+    <h2 id="moba"> <i> Моба</i></h2>
+
+    <div class="card">
+        <img src="1.jpg">
+        <h3>Brawl Stars</h3>
+        <p> <i> Supercell</i></p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=brawl+stars&c=apps&hl=ru">скачать</a>    
+    </div>
+
+    <div class="card">
+        <img src="2.jpg">
+        <h3>Standoff 2</h3>
+        <p> <i>Axlebolt</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://play.google.com/store/search?q=standoff+2&c=apps&hl=ru">скачать</a>
+    </div>
+
+
+ <div class="card">
+        <img src="7.jfif">
+        <h3>War Thunder</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://warthunder.com/en/?gclid=CjwKCAjw2rmWBhB4EiwAiJ0mtYQOLkDOW18zg8FIESQsmoH6cmmkdUefiJgT3x9SrO5tr-4q6jXGUBoC870QAvD_BwE">скачать</a>
+    </div>
+
+    <div class="card">
+        <img src="8.jfif">
+        <h3>Crossout</h3>
+        <p> <i>Gaijin</i> </p>
+        <p> <b>0</b>€</p>
+        <a class="text" href="https://crossout.net/ru/">скачать</a>
+    </div>
+    <h2>На нашем сайте Вы можете приобрести доступ к играм как по отдельности, так и по ежемесячной подписке!
+    </h2>
+    <table>
+        <caption>Наши тарифы</caption>
+        <thead>
+            <tr>
+                <th class="b">BASIC</th>
+                <th class="p">PRO</th>
+                <th class="g">GOLD</th>
+                <th class="pl">PLATINUM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Доступ к 3 любым играм на выбор
+                </td>
+                <td>
+                    Доступ к 5 любым играм на выбор
+                </td>
+                <td>
+                    Доступ к 7 любым играм на выбор
+                </td>
+                <td>
+                    Доступ ко всем играм на выбор
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Круглосуточная поддержка
+                </td>
+                <td>
+                    Круглосуточная поддержка
+                </td> 
+                <td>
+                    Круглосуточная поддержка
+                </td>
+                 <td>
+                    Круглосуточная поддержка
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Библиотека постоянно
+                </td>
+                <td>
+                    Библиотека постоянно
+                </td>
+                <td>
+                    Библиотека постоянно
+                </td>
+                <td>
+                    Библиотека постоянно
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    Эксклюзивные внутриигровые награды
+                </td>
+                <td>
+                    Эксклюзивные внутриигровые награды
+                </td>
+                <td>
+                    Эксклюзивные внутриигровые награды
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td>
+                    Доступ к играм за два дня до выхода
+                </td>
+            </tr>
+            <tr >
+                <td class="ta-da">
+                  <p class="price">Купить за 199 рублей в месяц</p>  
+                </td>
+                <td class="ta-da">
+                    <p class="price">Купить за 399 рублей в месяц</p> 
+                </td>
+                <td class="ta-da">
+                    <p class="price">Купить за 599 рублей в месяц</p> 
+                </td>
+                <td class="ta-da">
+                    <p class="price">Купить за 999 рублей в месяц</p> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a class="price-buton b"  href="">Выбрать тариф </a> 
+                </td>
+                <td>
+                    <a class="price-buton p" href="">Выбрать тариф </a> 
+                </td>
+                <td>
+                    <a class="price-buton g" href="">Выбрать тариф </a> 
+                </td>
+                <td>
+                    <a class="price-buton pl" href="">Выбрать тариф </a> 
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
